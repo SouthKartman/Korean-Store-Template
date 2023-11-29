@@ -1,0 +1,219 @@
+:root {
+  font-size: 13px;
+}
+
+@media screen and (min-width: 1000px) {
+  :root {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1240px) {
+  :root {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1480px) {
+  :root {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .bio {
+    display:none;
+  }
+  .header
+  {
+      color:white;
+  }
+  .main form fieldset{
+      color: white;
+  }
+  .main form fieldset input{
+      color: white;
+  }
+  .main form fieldset label{
+      color: white;
+  }
+  .main .contact form input::placeholder,
+  .main .contact form textarea::placeholder {
+      color: #ffffff;
+}
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2em;
+  background: #EEEEEE;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  height: 100vh;
+  background: linear-gradient(120deg, #FF8900 50%, #fff 50%);
+  display: flex;
+  flex-wrap: wrap;
+}
+.main .header,
+.main legend.header {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.25rem;
+  margin: 0.5em 0;
+}
+.main .bio,
+.main .contact {
+  max-width: 320px;
+  margin-top: 20vh;
+}
+.main .bio .profile-img {
+  max-width: 7em;
+  border-radius: 50%;
+}
+.main .bio .bio-link {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  display: inline-block;
+  float: left;
+  clear: left;
+  text-decoration: none;
+  color: #EEEEEE;
+  margin-bottom: 0.25em;
+  transition: color 300ms ease-in-out;
+}
+.main .bio .bio-link i {
+  margin-left: 8px;
+}
+.main .bio .bio-link::after {
+  display: block;
+  content: "";
+  height: 1px;
+  width: 0;
+  background: #ff5500;
+  transition: width 300ms ease-in-out;
+}
+.main .bio .bio-link:hover::after {
+  width: 100%;
+}
+.main .bio .bio-link:hover {
+  color: #ff5500;
+  font-weight: 800;
+}
+.main .contact {
+  color: #ff5500;
+}
+.main .contact form fieldset {
+  font-size: 1rem;
+  position: relative;
+  border: none;
+  margin-bottom: 0.25em;
+  padding: 0.25em 0;
+}
+.main .contact form fieldset label {
+  font-size: 0.875rem;
+  display: block;
+  position: absolute;
+  right: 0.125em;
+  top: 1.5em;
+  color: #CA8D6E;
+}
+.main .contact form input,
+.main .contact form textarea,
+.main .contact form button {
+  border: 0;
+}
+.main .contact form input:focus,
+.main .contact form textarea:focus,
+.main .contact form button:focus {
+  outline: none;
+}
+.main .contact form input,
+.main .contact form textarea {
+  display: block;
+  font-size: 1rem;
+  padding: 0.5em 0;
+  width: 280px;
+  background: none;
+  color: #CA8D6E;
+  border-bottom: 1px solid #7D6962;
+  transition: border 300ms ease-in-out;
+}
+.main .contact form input:focus,
+.main .contact form textarea:focus {
+  border-bottom: 1px solid #CA8D6E;
+}
+
+.main .contact button {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  display: block;
+  background: #CA8D6E;
+  color: #EEEEEE;
+  padding: 1em 2em;
+  box-shadow: 0 0 40px 0 rgba(21, 21, 21, 0.6);
+}
+.main .contact button:hover {
+  animation: swell 500ms ease-in-out;
+  cursor: pointer;
+}
+.main .contact textarea {
+  resize: none;
+}
+
+.main {
+  overflow: hidden;
+  animation: Page 600ms ease-in-out forwards;
+}
+
+.bio {
+  animation: Bio 600ms ease-in-out forwards;
+}
+
+.contact {
+  animation: Contact 600ms ease-in-out forwards;
+}
+
+@keyframes Page {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes Bio {
+  0% {
+    transform: translateX(-50vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes Contact {
+  0% {
+    transform: translateX(50vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes swell {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*# sourceMappingURL=auth.css.map */

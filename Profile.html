@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="bio">
+          <!-- <h3 class="header">Koreyan</h3>
+          <p>Best store in the world</p>
+            <a class="bio-link">Google<i class="fa fa-google"></i></a>
+            <a class="bio-link" href="">Twitter<i class="fa fa-twitter"></i></a>
+            <a class="bio-link" href="">Youtube<i class="fa fa-youtube"></i></a> -->
+            
+              <div class="profile_container-infousers">
+                  <div class="profile_container-infousers_block">
+                      <img class="profile_container-infousers-ava" src="1.png" width="80px" height="80px" style="object-fit: cover;">
+                          <div class="profile_container-infousers_text">
+                              <h2 class="ava_text" style="margin: 20px 0 0 0;">NonPhixion</h2>
+                              <div style="display: flex; text-align: center;"><p style="margin: 0px;">Роль:</p><p style="margin: 0px;">User</p></div>      
+                          </div>
+                  </div>
+                  
+              <div class="profile_container-edit">
+                <form id="sign-in-form" style="display: grid;">  
+                      
+                  <input type="email" placeholder="Email"/>
+                  <input type="password" placeholder="Password"/>
+                  <input type="email" placeholder="Email"/>
+                  <input type="password" placeholder="Password"/>
+                  <input type="email" placeholder="Email"/>
+                  <input type="password" placeholder="Password"/>
+                  <button class="button_profile"
+                  >Редактировать</button>
+              </div>
+             
+              
+            </form>
+          </div>
+        </div>
+        
+        <div class="contact">
+          <!-- <form id="form">
+            <legend class="header">Авторизируйтесь</legend>
+            <fieldset>
+              <label for="email-input" aria-hidden="true"></label>
+              <input type="email" placeholder="Ваш Email..." id="email-input"/>
+            </fieldset>
+            <fieldset>
+              <label class="fa fa-password" for="message-input" aria-hidden="true"></label>
+              <input placeholder="Ваш Пароль..." id="message-input"/>
+            </fieldset>
+            <fieldset>
+              <button type="submit" id="btn-submit">Зарегистрироваться</button>
+            </fieldset> --> 
+          <!-- </form> -->
+          <div class="contact-container">
+          <!-- <div class="contact-container-one">
+            
+            <legend class="header">Информация о профиле</legend>
+            
+          </div>  -->
+          
+          <div class="contact-container-two">
+            <!-- <legend class="header" style="color: #fff;">Ваши Заказы</legend> -->
+            <!-- <form id="sign-in-form">      
+              <input type="email" placeholder="Email"/>
+              <input type="password" placeholder="Password"/>
+              <input type="email" placeholder="Email"/>
+              <input type="password" placeholder="Password"/>
+              <input type="email" placeholder="Email"/>
+              <input type="password" placeholder="Password"/>
+              
+            </form> -->
+            <div class="main-table">
+            <section class="wrapper">
+              <!-- Row title -->
+              <main class="row title">
+                <ul>
+                  <li>Заказы</li>
+                  <li>Адрес</li>
+                  <li>
+                    <!-- <span class="title-hide">#</span> -->Прибытие
+                   </li>
+                  <li>ID Заказа</li>
+                  <li>Статус</li>
+                </ul>
+              </main>
+              <!-- Row 1 - fadeIn -->
+              <!-- <section class="row-fadeOut-wrapper">
+                <article class="row fadeIn nfl">
+                  <ul>
+                    <li><a href="#">NFL</a><span class="small">(fadeIn)</span></li>
+                    <li>$50</li>
+                    <li>12</li>
+                    <li>48</li>
+                    <li>2:00ET</li>
+                  </ul>
+                  <ul class="more-content">
+                    <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+                  </ul>
+                </article>
+              </section> -->
+              <!-- Row 2 - fadeOut -->
+              <!-- <section class="row-fadeOut-wrapper">
+                <article class="row nfl">
+                  <ul>
+                    <li><a href="#">NFL</a><span class="small">(fadeOut)</span></li>
+                    <li>$5</li>
+                    <li>45</li>
+                    <li>100</li>
+                    <li>3:00ET</li>
+                  </ul>
+                  <ul class="more-content">
+                    <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+                  </ul>
+                </article>
+              </section> -->
+              <!-- Row 3 -->
+              <!-- <article class="row nfl">
+                <ul>
+                  <li><a href="#">NHL</a></li>
+                  <li>$50</li>
+                  <li>12</li>
+                  <li>48</li>
+                  <li>12:00ET</li>
+                </ul>
+                <ul class="more-content">
+                  <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+                </ul>
+              </article> -->
+              <!-- Row 4 -->
+              <article class="row mlb update-row">
+                <ul>
+                  <li><a href="#">Чайник</a><span class="small">Взяли с ПВ</span></li>
+                  <li>ул.Мира д4/2 кв 47</li>
+                  <li>16/09/20</li>
+                  <li>8888888</li>
+                  <li>Доставлено</li>
+                </ul>
+                <ul class="more-content">
+                  <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+                </ul>
+              </article>
+              <!-- Row 5 -->
+              <article class="row mlb update-row">
+                <ul>
+                  <li><a href="#">Чайник</a><span class="small">Взяли с ПВ</span></li>
+                  <li>ул.Мира д4/2 кв 47</li>
+                  <li>16/09/20</li>
+                  <li>8888888</li>
+                  <li>Доставлено</li>
+                </ul>
+                <ul class="more-content">
+                  <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+                </ul>
+              </article>
+              <article class="row mlb update-row">
+                <ul>
+                  <li><a href="#">Чайник</a><span class="small">Взяли с ПВ</span></li>
+                  <li>ул.Мира д4/2 кв 47</li>
+                  <li>16/09/20</li>
+                  <li>8888888</li>
+                  <li>Доставлено</li>
+                </ul>
+                <ul class="more-content">
+                  <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+                </ul>
+              </article>
+              <article class="row mlb update-row">
+                <ul>
+                  <li><a href="#">Чайник</a><span class="small">Взяли с ПВ</span></li>
+                  <li>ул.Мира д4/2 кв 47</li>
+                  <li>16/09/20</li>
+                  <li>8888888</li>
+                  <li>Доставлено</li>
+                </ul>
+                <ul class="more-content">
+                  <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+                </ul>
+              </article>
+              <article class="row mlb update-row">
+                <ul>
+                  <li><a href="#">Чайник</a><span class="small">Взяли с ПВ</span></li>
+                  <li>ул.Мира д4/2 кв 47</li>
+                  <li>16/09/20</li>
+                  <li>8888888</li>
+                  <li>Доставлено</li>
+                </ul>
+                <ul class="more-content">
+                  <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+                </ul>
+              </article>
+              <article class="row mlb update-row">
+                <ul>
+                  <li><a href="#">Чайник</a><span class="small">Взяли с ПВ</span></li>
+                  <li>ул.Мира д4/2 кв 47</li>
+                  <li>16/09/20</li>
+                  <li>8888888</li>
+                  <li>Доставлено</li>
+                </ul>
+                <ul class="more-content">
+                  <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+                </ul>
+              </article>
+              <article class="row mlb update-row">
+                <ul>
+                  <li><a href="#">Чайник</a><span class="small">Взяли с ПВ</span></li>
+                  <li>ул.Мира д4/2 кв 47</li>
+                  <li>16/09/20</li>
+                  <li>8888888</li>
+                  <li>Доставлено</li>
+                </ul>
+                <ul class="more-content">
+                  <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+                </ul>
+              </article>
+            </section>
+          </div>
+        </div>
+        </div>
+          </div> 
+        </div>
+      </div>
+
+      <style>
+        
+        .headerwithcontainer
+        {
+          width: 100%;
+          /* background-color: #dc7601; */
+          height: 100px;
+        }
+        .main .bio,
+        .main .contact {
+          width: 50%;
+          max-width: 100%;
+          /* margin-top: 30vh; */
+        }
+        .main {
+            overflow: scroll;
+
+            animation: Page 600ms ease-in-out forwards;
+        }
+        .main::-webkit-scrollbar {
+         display: none;           /* ширина scrollbar */
+        }
+        
+
+
+        .main .bio{
+          margin-top: 30vh;
+          margin: auto;
+          justify-content: center;
+          display: inherit;
+        }
+        .main {
+          display: flex;
+          justify-content: space-around;
+          align-items: flex-start;
+          /* height: 100%; */
+          background: linear-gradient(-90deg, #FF8900 50%, #fff 50%);
+          display: flex;
+          flex-wrap: wrap;
+        }
+        
+        #sign-in-form input{
+          margin: 12px;
+          font-size: 10px;
+          padding: 10px;
+          width: 260px;
+          font-weight: 300;
+          border: none;
+          background-color: #e4e4e4;
+          font-family: 'Helvetica Neue', sans-serif;
+          letter-spacing: 1.5px;
+          padding-left: 20px;
+          border-radius:10px;
+          
+        }
+        .main .header, .main legend.header {
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-size: 1.25rem;
+            text-align: center;
+            margin: 0.5em 10px;
+        }
+
+        #sign-in-form input::placeholder{
+          letter-spacing: 1px;
+          
+        }
+        .contact-container
+        {
+          display: flex;
+          /* background: #FF8900; */
+          /* width: 600px; */
+        }
+        .main .contact {
+            /* max-width: 100%; */
+            margin-top: 20px;
+            margin: auto;
+            
+        }
+        .contact-container-two
+        {
+          width: 100%;
+        }
+        .profile_container-infousers_block
+        {
+          display: grid;
+          justify-content: center;
+        }
+      </style>
+      <!-- table -->
+      <style>
+        /* Google fonts - Open Sans */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/* colors */
+/* body */
+/* body {
+  background: rgba(0, 0, 0, 0.9);
+  font-family: "Open Sans", sans-serif;
+} */
+.main_table
+{
+  
+}
+/* links */
+a
+{
+  text-decoration: none;
+  transition: color 0.2s ease-out;
+  color: white;
+}
+/* .nfl a, .mlb a, .nhl a, .pga a {
+  text-decoration: none;
+  transition: color 0.2s ease-out;
+}
+
+.nfl a {
+  color: rgb(79, 192, 210);
+}
+
+.nfl a:hover {
+  color: #268695;
+}
+
+.mlb a {
+  color: rgb(82, 210, 154);
+}
+
+.mlb a:hover {
+  color: #279766;
+}
+
+.nhl a {
+  color: rgba(231, 196, 104, 0.7);
+}
+
+.nhl a:hover {
+  color: rgba(201, 154, 32, 0.7);
+}
+
+.pga a {
+  color: rgb(235, 118, 85);
+}
+
+.pga a:hover {
+  color: #c33d17;
+} */
+
+/* wrapper */
+.wrapper {
+  width: 100%;
+  /* max-width: 1000px; */
+  /* margin: 20px auto 100px auto; */
+  padding: 0;
+  color: rgba(255, 255, 255, 0.9);
+  overflow: hidden;
+  position: relative;
+}
+
+/* lists */
+.row ul {
+  margin: 0;
+  padding: 0;
+}
+
+.row ul li {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  list-style: none;
+  display: inline-block;
+  width: 20%;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  .row ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .row ul li {
+    font-size: 13px;
+  }
+  
+}
+
+.title ul li {
+  padding: 15px 13px;
+}
+
+.row ul li {
+  padding: 5px 10px;
+}
+
+/* rows */
+.row {
+  padding: 20px 0;
+  height: 55px;
+  font-size: 0;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.2s ease-out;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.row:hover {
+  background-color: #ab00c2;
+  height: 65px;
+}
+@media only screen and (max-width: 767px) {
+  .row:hover {
+    height: 85px;
+  }
+}
+@media only screen and (max-width: 359px) {
+  .row:hover {
+    height: 105px;
+  }
+}
+
+.title {
+  padding: 25px 0 5px 0;
+  height: 75px;
+  font-size: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-left: 3px solid rgba(255, 255, 255, 0.1);
+}
+
+.title:hover {
+  height: 45px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-left: 3px solid rgba(255, 255, 255, 0.1);
+}
+
+@media only screen and (max-width: 767px) {
+  .title-hide {
+    display: none;
+  }
+}
+/*  */
+
+/* row one - fadeIn */
+.row-fadeIn-wrapper {
+  opacity: 0;
+  font-size: 0;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.2s ease-out;
+  animation: fadeIn 0.4s ease-out 2s 1 alternate;
+  animation-fill-mode: forwards;
+}
+
+.row-fadeIn-wrapper:hover {
+  height: 35px;
+}
+@media only screen and (max-width: 767px) {
+  .row-fadeIn-wrapper:hover {
+    height: 55px;
+  }
+}
+@media only screen and (max-width: 359px) {
+  .row-fadeIn-wrapper:hover {
+    height: 75px;
+  }
+}
+
+.fadeIn {
+  padding: 20px 0;
+  font-size: 0;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.fadeIn:hover {
+  background-color: rgba(26, 26, 26, 0.9);
+}
+
+/* row two - fadeOut */
+.row-fadeOut-wrapper {
+  font-size: 0;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.2s ease-out;
+  animation: fadeOut 0.4s ease-out 8s 1 alternate;
+  animation-fill-mode: forwards;
+  opacity: 1;
+  height: 65px;
+}
+
+.row-fadeOut-wrapper:hover {
+  height: 100px;
+}
+
+/* update content */
+.update-row {
+  animation: update 0.5s ease-out 12s 1 alternate;
+}
+
+.update1 {
+  position: absolute;
+  top: 25px;
+  display: inline-block;
+  opacity: 1;
+  animation: update1 1s ease-out 12s 1 alternate;
+  animation-fill-mode: forwards;
+}
+
+.update2 {
+  position: absolute;
+  top: 25px;
+  display: inline-block;
+  opacity: 0;
+  animation: update2 4s ease-out 13s 1 alternate;
+  animation-fill-mode: forwards;
+}
+
+/* more content */
+ul.more-content li {
+  position: relative;
+  top: 22px;
+  font-size: 13px;
+  display: none;
+  margin: 0;
+  padding: 10px 13px;
+  /* display: block; */
+  height: 50px;
+  width: 100%;
+  color: rgba(128, 128, 128, 0.9);
+}
+@media only screen and (max-width: 767px) {
+  ul.more-content li {
+    font-size: 11px;
+    display: none;
+  }
+}
+
+/* small content */
+.small {
+  color: rgba(102, 102, 102, 0.9);
+  font-size: 10px;
+  padding: 0 10px;
+  margin: 0;
+}
+@media only screen and (max-width: 767px) {
+  .small {
+    display: none;
+  }
+}
+
+/* keyframe animations */
+@keyframes fadeIn {
+  from {
+    background: rgba(255, 255, 255, 0.1);
+    opacity: 0;
+    padding: 0;
+  }
+  to {
+    background: rgba(51, 51, 51, 0.1);
+    opacity: 1;
+    padding: 0 0 65px 0;
+  }
+}
+@keyframes fadeOut {
+  from {
+    background: rgba(51, 51, 51, 0.1);
+    opacity: 1;
+    height: 65px;
+  }
+  to {
+    background: rgba(255, 255, 255, 0.1);
+    opacity: 0;
+    height: 0;
+  }
+}
+@keyframes update {
+  0% {
+    background: rgba(51, 51, 51, 0.1);
+  }
+  50% {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    background: rgba(51, 51, 51, 0.1);
+  }
+}
+@keyframes update1 {
+  0% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes update2 {
+  0% {
+    opacity: 0;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  20% {
+    opacity: 1;
+    color: rgb(82, 210, 154);
+  }
+  100% {
+    opacity: 1;
+    color: rgba(255, 255, 255, 0.9);
+  }
+}
+        .ava_text{
+                  color: rgba(26, 26, 26, 0.9);
+                }
+        .button_profile
+        {
+                  border-radius: 3px;
+                  padding: 6px;
+                  background: #FF8900;
+                  border: none;
+                  color: #fff;
+                  margin: 20px 10px;
+                  cursor: pointer;
+        }
+
+        
+@media only screen and (max-width: 1100px) {
+          .main{
+              display: grid;
+              background: #FF8900;
+          }
+          .main .bio, .main .contact {
+              width: 100%;
+              max-width: 100%;
+              margin-top: 50px;
+              /* margin-top: 30vh; */
+          }
+          .ava_text{
+          color: rgba(255, 255, 255, 0.9);
+        }
+        .button_profile
+        {
+          background: #fff;
+          color: #FF8900;
+          font-weight: bold
+        }
+        }
+        
+        
+
+/*# sourceMappingURL=table2.css.map */
+
+      </style>
+</body>
+</html>

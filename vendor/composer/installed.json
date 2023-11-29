@@ -1,0 +1,44 @@
+{
+    "packages": [
+        {
+            "name": "destyk/umoney-quickpay-php",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/destyk/umoney-quickpay-php.git",
+                "reference": "2fc475571130bfc5efe685096c82be227066c81e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/destyk/umoney-quickpay-php/zipball/2fc475571130bfc5efe685096c82be227066c81e",
+                "reference": "2fc475571130bfc5efe685096c82be227066c81e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "time": "2022-07-18T06:55:43+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Universal payments UMoney API SDK",
+            "homepage": "https://github.com/destyk/umoney-quickpay-php",
+            "support": {
+                "issues": "https://github.com/destyk/umoney-quickpay-php/issues",
+                "source": "https://github.com/destyk/umoney-quickpay-php/tree/1.0.0"
+            },
+            "install-path": "../destyk/umoney-quickpay-php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
